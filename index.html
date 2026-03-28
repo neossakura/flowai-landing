@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FlowAI — Smarter work for modern teams</title>
+  <meta
+    name="description"
+    content="FlowAI is a modern productivity platform for teams that want clearer planning, better focus, and faster execution."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">
+        <span class="logo__mark"></span>
+        FlowAI
+      </a>
+
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" id="nav">
+        <a href="#features">Features</a>
+        <a href="#metrics">Metrics</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#cta" class="nav__button">Start free</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="container hero__grid">
+        <div class="hero__content reveal">
+          <div class="eyebrow">Productivity platform for focused teams</div>
+
+          <h1 class="hero__title">
+            Plan smarter,
+            move faster,
+            and keep work under control
+          </h1>
+
+          <p class="hero__text">
+            FlowAI helps teams organize priorities, automate routine planning,
+            track real progress, and create a cleaner workflow from idea to delivery.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#cta" class="btn btn--primary">Start free</a>
+            <a href="#features" class="btn btn--secondary">See product</a>
+          </div>
+
+          <div class="hero__proof">
+            <div class="proof-item">
+              <strong>12k+</strong>
+              <span>active users</span>
+            </div>
+            <div class="proof-item">
+              <strong>4.9/5</strong>
+              <span>average rating</span>
+            </div>
+            <div class="proof-item">
+              <strong>31%</strong>
+              <span>faster execution</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-ui reveal reveal-delay-1">
+          <div class="ui-window">
+            <div class="ui-window__top">
+              <div class="ui-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="ui-window__label">flowai.app/dashboard</div>
+            </div>
+
+            <div class="ui-layout">
+              <aside class="ui-sidebar">
+                <div class="ui-sidebar__logo"></div>
+                <div class="ui-sidebar__item active"></div>
+                <div class="ui-sidebar__item"></div>
+                <div class="ui-sidebar__item"></div>
+                <div class="ui-sidebar__item"></div>
+              </aside>
+
+              <div class="ui-content">
+                <div class="ui-content__head">
+                  <div>
+                    <p class="ui-caption">Workspace overview</p>
+                    <h2>Marketing sprint</h2>
+                  </div>
+                  <div class="ui-tag">Live sync</div>
+                </div>
+
+                <div class="ui-cards">
+                  <div class="mini-card">
+                    <span>Completed</span>
+                    <strong>24</strong>
+                  </div>
+                  <div class="mini-card">
+                    <span>In progress</span>
+                    <strong>08</strong>
+                  </div>
+                  <div class="mini-card">
+                    <span>Focus score</span>
+                    <strong>89%</strong>
+                  </div>
+                </div>
+
+                <div class="ui-main-grid">
+                  <div class="chart-card">
+                    <div class="chart-card__top">
+                      <span>Weekly output</span>
+                      <strong>+18%</strong>
+                    </div>
+                    <div class="chart">
+                      <div class="chart__bar b1"></div>
+                      <div class="chart__bar b2"></div>
+                      <div class="chart__bar b3"></div>
+                      <div class="chart__bar b4"></div>
+                      <div class="chart__bar b5"></div>
+                      <div class="chart__bar b6"></div>
+                    </div>
+                  </div>
+
+                  <div class="tasks-card">
+                    <div class="task-item done">
+                      <span class="task-dot"></span>
+                      <p>Homepage review</p>
+                    </div>
+                    <div class="task-item">
+                      <span class="task-dot"></span>
+                      <p>Prepare analytics report</p>
+                    </div>
+                    <div class="task-item">
+                      <span class="task-dot"></span>
+                      <p>Sync product priorities</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="floating-note floating-note--one">
+            <span>AI summary</span>
+            <strong>7 tasks grouped by priority</strong>
+          </div>
+
+          <div class="floating-note floating-note--two">
+            <span>Focus mode</span>
+            <strong>Next deep work block: 45 min</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="brands section section--compact">
+      <div class="container">
+        <p class="brands__title reveal">Used by ambitious startups and product teams</p>
+        <div class="brands__row reveal reveal-delay-1">
+          <span>Nexa</span>
+          <span>Orbit Labs</span>
+          <span>Corely</span>
+          <span>FrameOS</span>
+          <span>Vertex Studio</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="section-label">Features</div>
+            <h2 class="section-title">A cleaner system for planning and execution</h2>
+          </div>
+          <p class="section-text">
+            Built to reduce workflow chaos and help teams focus on what actually matters.
+          </p>
+        </div>
+
+        <div class="feature-split reveal">
+          <div class="feature-split__content">
+            <span class="feature-kicker">Smart prioritization</span>
+            <h3>Turn scattered tasks into a clear daily plan</h3>
+            <p>
+              FlowAI helps teams sort work by urgency, business value, and delivery impact,
+              so execution feels structured instead of reactive.
+            </p>
+
+            <ul class="feature-list">
+              <li>Priority-based workflow organization</li>
+              <li>Cleaner task visibility across projects</li>
+              <li>Fast overview for managers and teams</li>
+            </ul>
+          </div>
+
+          <div class="feature-preview feature-preview--blue">
+            <div class="preview-panel">
+              <div class="preview-line preview-line--lg"></div>
+              <div class="preview-line preview-line--md"></div>
+              <div class="preview-stack">
+                <div class="preview-card"></div>
+                <div class="preview-card"></div>
+                <div class="preview-card preview-card--accent"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-split feature-split--reverse reveal reveal-delay-1">
+          <div class="feature-split__content">
+            <span class="feature-kicker">AI assistant</span>
+            <h3>Automate routine thinking and free up focus</h3>
+            <p>
+              Use AI to summarize meetings, group tasks, generate action plans,
+              and remove repetitive overhead from daily work.
+            </p>
+
+            <ul class="feature-list">
+              <li>AI-generated task summaries</li>
+              <li>Suggested next steps</li>
+              <li>Less manual planning every week</li>
+            </ul>
+          </div>
+
+          <div class="feature-preview feature-preview--green">
+            <div class="assistant-card">
+              <div class="assistant-card__top">
+                <span>AI workflow assistant</span>
+                <strong>Ready</strong>
+              </div>
+              <div class="assistant-bubble"></div>
+              <div class="assistant-bubble assistant-bubble--small"></div>
+              <div class="assistant-actions">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-box reveal">
+            <div class="feature-box__icon">01</div>
+            <h3>Focus sessions</h3>
+            <p>Build better work rhythms with time blocks and distraction-free planning.</p>
+          </article>
+
+          <article class="feature-box reveal reveal-delay-1">
+            <div class="feature-box__icon">02</div>
+            <h3>Live analytics</h3>
+            <p>See team output, spot bottlenecks, and monitor progress in real time.</p>
+          </article>
+
+          <article class="feature-box reveal reveal-delay-2">
+            <div class="feature-box__icon">03</div>
+            <h3>Team visibility</h3>
+            <p>Keep priorities transparent and reduce misalignment between people and tasks.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="metrics">
+      <div class="container">
+        <div class="metrics-card reveal">
+          <div class="metrics-card__content">
+            <div class="section-label">Metrics</div>
+            <h2 class="section-title">Built to improve speed, clarity, and consistency</h2>
+            <p class="section-text">
+              Real teams need more than task lists. They need structure, visibility, and momentum.
+            </p>
+          </div>
+
+          <div class="metrics-grid">
+            <div class="metric-box">
+              <strong>31%</strong>
+              <span>faster task completion</span>
+            </div>
+            <div class="metric-box">
+              <strong>42%</strong>
+              <span>less planning overhead</span>
+            </div>
+            <div class="metric-box">
+              <strong>89%</strong>
+              <span>weekly focus score</span>
+            </div>
+            <div class="metric-box">
+              <strong>3.2x</strong>
+              <span>better task visibility</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="section-label">Pricing</div>
+            <h2 class="section-title">Simple plans that scale with your workflow</h2>
+          </div>
+          <p class="section-text">
+            Start for free, upgrade when your team needs more collaboration and automation.
+          </p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card reveal">
+            <p class="price-name">Starter</p>
+            <h3>$0</h3>
+            <span class="price-period">/ month</span>
+            <ul>
+              <li>Up to 3 projects</li>
+              <li>Basic task planning</li>
+              <li>Weekly analytics</li>
+              <li>Email support</li>
+            </ul>
+            <a href="#cta" class="btn btn--secondary btn--full">Get started</a>
+          </article>
+
+          <article class="price-card price-card--featured reveal reveal-delay-1">
+            <div class="price-badge">Most popular</div>
+            <p class="price-name">Pro</p>
+            <h3>$19</h3>
+            <span class="price-period">/ month</span>
+            <ul>
+              <li>Unlimited projects</li>
+              <li>AI workflow assistant</li>
+              <li>Daily analytics</li>
+              <li>Priority support</li>
+            </ul>
+            <a href="#cta" class="btn btn--primary btn--full">Start Pro</a>
+          </article>
+
+          <article class="price-card reveal reveal-delay-2">
+            <p class="price-name">Team</p>
+            <h3>$49</h3>
+            <span class="price-period">/ month</span>
+            <ul>
+              <li>Everything in Pro</li>
+              <li>Shared workspace</li>
+              <li>Advanced permissions</li>
+              <li>Team dashboard</li>
+            </ul>
+            <a href="#cta" class="btn btn--secondary btn--full">Book demo</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="section-label">FAQ</div>
+            <h2 class="section-title">Common questions before getting started</h2>
+          </div>
+          <p class="section-text">
+            Everything your users usually want to know before trying the product.
+          </p>
+        </div>
+
+        <div class="faq-list">
+          <article class="faq-item reveal">
+            <button class="faq-question">
+              Is FlowAI made for individuals or teams?
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Both. It works well for personal productivity, but becomes even more powerful
+                when teams need visibility and structured collaboration.
+              </p>
+            </div>
+          </article>
+
+          <article class="faq-item reveal reveal-delay-1">
+            <button class="faq-question">
+              Does it require technical knowledge?
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                No. The interface is designed to be simple and familiar, with a low learning curve.
+              </p>
+            </div>
+          </article>
+
+          <article class="faq-item reveal reveal-delay-2">
+            <button class="faq-question">
+              Can I upgrade later?
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Yes. You can start on the free plan and move to Pro or Team whenever your workflow grows.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="cta">
+      <div class="container">
+        <div class="cta-box reveal">
+          <div>
+            <div class="section-label">Start now</div>
+            <h2 class="section-title">Bring more clarity to the way your team works</h2>
+            <p class="section-text">
+              Start for free and see how a cleaner workflow can improve team speed and focus.
+            </p>
+          </div>
+
+          <form class="cta-form">
+            <input type="email" placeholder="Your email address" />
+            <button type="submit" class="btn btn--primary">Start free trial</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <a href="#" class="logo">
+          <span class="logo__mark"></span>
+          FlowAI
+        </a>
+        <p class="footer__text">Modern workflow platform for teams that want more focus and less chaos.</p>
+      </div>
+
+      <div class="footer__links">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
