@@ -1,6 +1,6 @@
 # FlowAI
 
-![FlowAI Landing Page Preview](./assets/images/preview.jpg)
+![FlowAI Landing Page Preview](./assets/images/preview.png)
 
 **FlowAI** — это современный лендинг для демонстрационного проекта в портфолио. Он представляет собой концепцию платформы продуктивности, которая помогает командам планировать задачи, автоматизировать рутину с помощью AI и достигать целей быстрее.
 
