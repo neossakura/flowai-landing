@@ -1,12 +1,12 @@
-# FlowAI — Smarter work for modern teams
+# FlowAI
 
-![FlowAI Landing Page Preview](https://via.placeholder.com/1200x630/0a192f/64ffda?text=FlowAI+Landing+Page)
+![FlowAI Landing Page Preview](./assets/images/preview.jpg)
 
 **FlowAI** — это современный лендинг для демонстрационного проекта в портфолио. Он представляет собой концепцию платформы продуктивности, которая помогает командам планировать задачи, автоматизировать рутину с помощью AI и достигать целей быстрее.
 
 Этот проект демонстрирует навыки верстки и визуально привлекательного одностраничного сайта с интерактивными элементами.
 
-[Посмотреть демо](#) *https://neossakura.github.io/flowai-landing/*
+[Посмотреть демо](#)*https://neossakura.github.io/flowai-landing/*
 
 ---
 
