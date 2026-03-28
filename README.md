@@ -1,21 +1,34 @@
-Flowai
+# FlowAI — Smarter work for modern teams
 
-A modern responsive landing page built to practice layout, styling, and UI structure.
+![FlowAI Landing Page Preview](https://via.placeholder.com/1200x630/0a192f/64ffda?text=FlowAI+Landing+Page)
 
-**About
-**
-This project was created as part of my frontend learning process.
-The main goal was to build a clean and visually solid interface using basic web technologies without any frameworks.
+**FlowAI** — это современный лендинг для демонстрационного проекта в портфолио. Он представляет собой концепцию платформы продуктивности, которая помогает командам планировать задачи, автоматизировать рутину с помощью AI и достигать целей быстрее.
 
-I focused on layout structure, spacing, and making the page look consistent across different screen sizes.
+Этот проект демонстрирует навыки верстки и визуально привлекательного одностраничного сайта с интерактивными элементами.
 
-**Tech Stack
-**	•	HTML5
-	•	CSS3 (Flexbox, Grid)
-	•	JavaScript (ES6)
+[Посмотреть демо](#) *https://neossakura.github.io/flowai-landing/*
 
-**Features
-**	•	Responsive layout (desktop / tablet / mobile)
-	•	Clean and simple UI
-	•	Basic animations and hover effects
-	•	Structured and readable code
+---
+
+## 📋 Особенности (Features)
+
+- **Адаптивный дизайн**: Корректно отображается на всех устройствах (desktop, tablet, mobile).
+- **Современная структура**: Четкие блоки (Hero, Features, Pricing, FAQ, CTA) для демонстрации продукта.
+- **UI-компоненты**: Визуализация интерфейса дашборда, карточки с анимациями.
+- **Интерактивность**:
+  - Бургер-меню для мобильных устройств.
+  - Плавные анимации появления (scroll reveal) с помощью CSS/JS.
+  - Аккордеон (FAQ) для раскрытия ответов на вопросы.
+- **Чистый код**: Семантическая верстка HTML5, организация CSS-классов по методологии BEM.
+
+---
+
+## 🛠️ Используемые технологии
+
+- **HTML5** — семантическая структура страницы.
+- **CSS3** — flexbox, grid, анимации, медиазапросы (адаптив).
+- **JavaScript (ES6)** — логика для мобильного меню, плавного скролла, анимаций и FAQ-аккордеона.
+- **Google Fonts** — шрифт `Inter`.
+- **Методология BEM** — для организации имен классов.
+
+---
